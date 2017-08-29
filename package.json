@@ -1,0 +1,25 @@
+{
+  "name": "node-commands",
+  "version": "1.0.0",
+  "description": "- node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apati04/node-commands.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apati04/node-commands/issues"
+  },
+  "homepage": "https://github.com/apati04/node-commands#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
