@@ -3,12 +3,12 @@ const request = require('request');
 const Spotify = require('node-spotify-api');
 const { twitterKeys, spotifyKeys } = require('./keys');
 
-
 const fetchTweets = (usr, q = {screen_name: 'apatipak8'}) => {
   usr.get('statuses/user_timeline', q, (err, tweets) => {
     tweets.forEach(({ text }, i) => console.log(`@${q.screen_name} : ${text}`));
   });
 }
+
 const fetchSongs = (usr, query) => {
   usr.search({type: 'track', query})
      .then(({tracks: { items }}) => {
