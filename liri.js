@@ -22,8 +22,7 @@ const fetchSongs = (usr, query) => {
     })
 }
 
-[, , cmd, ...input] = process.argv;
-
+let [, , cmd, ...input] = process.argv;
 
 switch (cmd) {
   case 'my-tweets':
